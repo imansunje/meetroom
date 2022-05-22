@@ -35,7 +35,7 @@ const signUpHandler = async (e) => {
               <img src={logo_name} alt="" />
             </div>
               <Card.Body>
-                  <div className='text-center mb-4'> <span>Book with Congreso today</span></div>
+                  <div className='text-center mb-4'> <span>Book with Meetroom today</span></div>
                   <Form onSubmit={signUpHandler}>
                       <Form.Group id='email'>
                       <FontAwesomeIcon className='icon' icon={faUser} />{" "}
