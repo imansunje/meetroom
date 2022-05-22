@@ -4,13 +4,13 @@ import 'firebase/compat/firestore';
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDH0NG_DO3ylH2xn905IiS8Tke72gfEx4I",
-    authDomain: "congreso-project.firebaseapp.com",
-    projectId: "congreso-project",
-    storageBucket: "congreso-project.appspot.com",
-    messagingSenderId: "796843478919",
-    appId: "1:796843478919:web:b56f9021f4e94494bd8d22"
-  };
+  apiKey: "AIzaSyA805-BEAlCmkK_uiOwvpfWCHKkWnnKBWc",
+  authDomain: "meetroom-3b3de.firebaseapp.com",
+  projectId: "meetroom-3b3de",
+  storageBucket: "meetroom-3b3de.appspot.com",
+  messagingSenderId: "979189809722",
+  appId: "1:979189809722:web:fa255db50f82ad5539ab03"
+};
 
 const app = firebase.initializeApp(firebaseConfig);
 
