@@ -10,6 +10,7 @@ import './Room.css';
 import { Navigate } from 'react-router-dom';
 import {ToastContainer, toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import FeedbackPopup from '../components/FeedbackPopup';
 
  export const Room3Screen = () => {
   const [value, onChange] = useState(new Date());
@@ -82,7 +83,7 @@ import 'react-toastify/dist/ReactToastify.css';
       } }}/>
       </div>
      <Button className="" style={{marginTop: "20px",  fontFamily: "'Poppins', sans-serif"}}onClick={ () => {reserveHandler(); handleReservation3Success()}}>Reserve</Button>
-    </div></>
+     <div className='mb-auto p-2'><FeedbackPopup /></div></div></>
   )} if(!currentUser) return <Navigate to={"/signin"}/>
 };
 
