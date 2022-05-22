@@ -1,0 +1,43 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --white: #FFF;
+    --bg: #313552;
+    --grey: #CCC;
+    --sucess-bg: #6BCB77;
+}
+.wrapper{
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 30px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+}
+.wrapper .content .logo img{
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+    
+
+}
+.wrapper .content .form form .eInput .icon{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    color: var(--grey);
+}
+
+.dugme{
+    margin-top: 20px;
+    position: relative;
+    width:408px;
+    margin-left: 0px;
+    color: white;
+
+}

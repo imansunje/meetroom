@@ -1,0 +1,12 @@
+.logo img{
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.wholeScreen{
+
+    height:70px;
+    border-bottom: 200px;
+}
+

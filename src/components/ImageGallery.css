@@ -1,0 +1,18 @@
+body{
+    background-color: #505ca6;
+}
+
+.x{
+    overflow-x: hidden;
+    margin:30px;
+   
+  }
+  
+  .im{
+  height: 351px;
+  }
+  
+  .centar{
+    text-align: center;
+  }
+  

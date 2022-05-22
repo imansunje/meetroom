@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: #313552;
+}
+
+.title{
+  text-align: center;
+}
+.title h2{
+  position: relative; 
+  font-family: 'Poppins', sans-serif;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  font-size: 2rem;
+
+}
+
+.reserved{
+  border-radius: 50%;
+  color: #f3f3f3 !important;
+  background-color: #e73f4b !important;
+  pointer-events: none !important;
+}

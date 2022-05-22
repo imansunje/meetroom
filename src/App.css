@@ -1,0 +1,13 @@
+.App{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #25a3bc;
+}
+:root{
+    --white: #FFF;
+    --bg: #313552;
+    --grey: #CCC;
+    --sucess-bg: #6BCB77;
+}
+
